@@ -1,0 +1,1 @@
+# Notes on the NLP JOurney Phase 1 : Representation
