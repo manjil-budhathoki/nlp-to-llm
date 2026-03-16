@@ -1,12 +1,9 @@
-# NLTK
+Tokenization:
 
-Not used in the modern NLP problems:
-reason:
-NOt trainable as it use the pre-trained fix model (punkt)tokenizer based on the penn Treebank corups so we cant update it with the new words.
+Prefereence is for the sub word tokenization and modern transformer model used them  here is the reason
 
-so the new vocab or rare owrd is tkenizaed as [UNK] 
+- word level tokenizer have fixed vocab and when new or rare works pop ins it gives [UNK]  but sub word break them into workds like 
+tokeinzation, tokenizing , tokenized, into token then ##zation, or ##zing or ##ed.
 
-we used it only for the tesching , prototyping or rule-based task.
-
-not used in deep learning models like bert or gpt due to lack of sub weord handeling and fixed behabiors
+- Character level well it is good but  increasing computational cost and training time.
 
