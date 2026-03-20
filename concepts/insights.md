@@ -39,3 +39,15 @@ we use lemmatization if we need high accurac yand stemming for speed for critica
 
 
 perfer stemmingin large corpus and for smalll to medium use the lemmatization .
+
+
+Word Representations
+
+### ONe-Hot endoding:
+
+issues as the vocabularies grows the vector becoomes huge curseof dimensionality
+
+also cant express the semmentic meaning or relationship between words:
+
+Example:
+![alt text](onehot.png)
