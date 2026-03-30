@@ -51,3 +51,5 @@ also cant express the semmentic meaning or relationship between words:
 
 Example:
 ![alt text](onehot.png)
+
+tesying it is good 
