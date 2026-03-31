@@ -52,4 +52,4 @@ also cant express the semmentic meaning or relationship between words:
 Example:
 ![alt text](onehot.png)
 
-tesying it is good 
+working on the js automation is so cool no lazy work directly state the work of the ark.
