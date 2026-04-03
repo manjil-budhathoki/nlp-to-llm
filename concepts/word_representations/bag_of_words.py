@@ -23,4 +23,10 @@ print(f"\nDocument-term matrix:")
 print(X.toarray())
 
 
+
+
 # Representation for each document
+import pandas as pd
+
+df = pd.DataFrame(X.toarray(), columns=vocab)
+print(df)
