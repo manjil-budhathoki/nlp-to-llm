@@ -21,3 +21,11 @@ trigram_vec = CountVectorizer(ngram_range=(3, 3))
 trigrams = trigram_vec.fit_transform(text)
 print("\n=== Trigrams (3-grams) ===")
 print(trigram_vec.get_feature_names_out())
+
+
+# N-gram (1-3 grams)
+ngram_vec = CountVectorizer(ngram_range=(1, 3))
+ngrams = ngram_vec.fit_transform(text)
+print("\n=== N-grams (1-3 grams) ===")
+print(f"Total feature count: {len(ngram_vec.get_feature_names_out())}")
+print(ngram_vec.get_feature_names_out())
